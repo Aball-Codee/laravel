@@ -8,10 +8,10 @@ class HelloController extends Controller
 {
     public function index()
     {
-        return 'selamat datang di aplikasi laravel!';
+        return 'selamat datang di aplikasi Laravel';
     }
     public function sayHello($name)
     {
-        return 'Hello, ' . $name . '!';
+        return 'Hello, ' . $name . '';
     }
 }

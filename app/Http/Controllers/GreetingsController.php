@@ -8,11 +8,11 @@ class GreetingsController extends Controller
 {
     public function welcome()
     {
-        return "Selamat datang di aplikasi Laravel!";
+        return "Selamat datang di aplikasi Laravel";
     }
 
     public function greet($name, $npm)
     {
-        return "Halo, $name $npm !";
+        return "Halo, $name $npm ";
     }
 }
